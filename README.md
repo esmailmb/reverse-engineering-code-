@@ -1,35 +1,22 @@
-# Unit-14-Sequelize-Homework-Reverse-Engineering-Code
+# Unit 14 Sequelize Homework: Reverse Engineering Code
 homework week 14
 
-------------------------------------------------------------------------------------------------------------------------------
-
---PASSWORD AUTHENTICATION--
+## PASSWORD AUTHENTICATION
 
 This app allows users to create an account, log into the account and sign back out securely. All user data is stored in a mysql
 database.
 
-------------------------------------------------------------------------------------------------------------------------------
+## TECH USED 
 
---USER STORY--
+- BCRYPTJS
+- EXPRESS
+- EXPRESS-SESSION
+- MYSQL2
+- PASSPORT
+- PASSPORT-LOCAL
+- SEQUELIZE
 
-as someone who wants to safely log in to "X", I want to know my personal details are safely stored so that I dont have to worry
-about using "X".
-
-------------------------------------------------------------------------------------------------------------------------------
-
---TECH USED --
-
--BCRYPTJS
--EXPRESS
--EXPRESS-SESSION
--MYSQL2
--PASSPORT
--PASSPORT-LOCAL
--SEQUELIZE
-
-------------------------------------------------------------------------------------------------------------------------------
-
---GETTING STARTED--
+## GETTING STARTED
 
 to begin using this app, please clone this repository into your local storage. Once this is complete, please follow these steps;
 
@@ -40,9 +27,7 @@ to begin using this app, please clone this repository into your local storage. O
 5)open browser and put "http://localhost:3307" in search bar
 6)enjoy using the app!
 
-------------------------------------------------------------------------------------------------------------------------------
-
---FILES EXPLAINED--
+## FILES EXPLAINED
 
 CONFIG
 
@@ -79,7 +64,7 @@ contains all package info, node modules used, version info etc };
 server.js {
 requires packages, sets up PORT, creates express and middleware, creates routes and syncs database / logs message in terminal on successful connection to server };
 
-------------------------------------------------------------------------------------------------------------------------------
+
   
  
     
