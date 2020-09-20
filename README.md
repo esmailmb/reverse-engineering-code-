@@ -37,7 +37,7 @@ to begin using this app, please clone this repository into your local storage. O
 2)go into the config file, open config.js and insert your personal data ie username, password etc
 3)open terminal in current repo and run "npm i" to install all node packages
 4)while in terminal, run "node server.js" and you will successfully connect to server
-5)open browser and put "http://localhost:8080" in search bar
+5)open browser and put "http://localhost:3307" in search bar
 6)enjoy using the app!
 
 ------------------------------------------------------------------------------------------------------------------------------
